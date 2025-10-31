@@ -9,7 +9,7 @@
     {
         long f = 1;
         for (int j = 1; j <= i; j++) f *= j;
-        s += Math.Cos(i * x) / F;
+        s += Math.Cos(i * x) / f;
     }
     Console.WriteLine($"S={s:F2}");
 }
