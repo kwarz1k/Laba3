@@ -7,8 +7,9 @@
     Console.WriteLine("Введите факториал с:");
     double c =int.Parse(Console.ReadLine());
     double s = 0;
-    for (int i = n; i <= n; i++)
+    for (int i = 0; i <= n; i++)
     {
+        с=(с-1);
         double F = c;
         s += Math.Cos(i * x) / F;
     }
